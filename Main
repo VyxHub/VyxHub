@@ -1,0 +1,9 @@
+local placeId = game.PlaceId
+
+if placeId == 140699359360137 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VyxHub/SPTS-Reimagined/refs/heads/main/Source"))()
+elseif placeId == 140340279062020 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VyxHub/SPTS-Legends/refs/heads/main/source.lua"))()
+else
+    warn("No script found for PlaceId: " .. placeId)
+end   
