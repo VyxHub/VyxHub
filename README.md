@@ -1,7 +1,4 @@
-
-# ||                                    ||
-# ||            V Y X  H U B            ||
-# ||                                    ||
+# ||||||            V Y X  H U B            ||||||
 
 Support For SPTS:Reimagined & SPTS:Legends
 
