@@ -1,10 +1,10 @@
 local placeId = game.PlaceId
 if placeId == 140699359360137 then -- Reimagined
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/VyxHub/SPTSSource/refs/heads/main/Reimagined.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VyxHub/Sources/refs/heads/main/Reimagined.lua"))()
 elseif placeId == 140340279062020 then --  Legends
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/VyxHub/SPTSSource/refs/heads/main/Legends.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VyxHub/Sources/refs/heads/main/Legends.lua"))()
 elseif placeId == 118525132152896 then -- United
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/VyxHub/SPTSSource/refs/heads/main/United.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VyxHub/Sources/refs/heads/main/United.lua"))()
 else
     warn("No script found for PlaceId: " .. placeId)
 end   
