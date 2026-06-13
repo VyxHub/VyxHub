@@ -5,6 +5,8 @@ elseif placeId == 140340279062020 then --  Legends
     loadstring(game:HttpGet("https://raw.githubusercontent.com/VyxHub/Sources/refs/heads/main/Legends.lua"))()
 elseif placeId == 118525132152896 then -- United
     loadstring(game:HttpGet("https://raw.githubusercontent.com/VyxHub/Sources/refs/heads/main/United.lua"))()
+elseif placeId == 139862517286509 then -- PTSX
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VyxHub/Sources/refs/heads/main/PowerTrainingSimX.lua"))()
 else
     warn("No script found for PlaceId: " .. placeId)
 end   
